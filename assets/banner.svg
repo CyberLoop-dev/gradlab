@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="GradLab banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#14264a"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4cc9f0"/><stop offset="1" stop-color="#7b8cff"/></linearGradient>
+    <linearGradient id="card" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4cc9f0"><animate attributeName="stop-color" values="#4cc9f0;#ff6bcb;#ffd166;#4cc9f0" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#4361ee"><animate attributeName="stop-color" values="#4361ee;#845ec2;#fc6076;#4361ee" dur="8s" repeatCount="indefinite"/></stop>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect x="90" y="40" width="240" height="240" rx="24" fill="url(#card)"/>
+  <rect x="110" y="236" width="200" height="8" rx="4" fill="#ffffff" opacity=".35"/>
+  <circle cy="240" r="11" fill="#fff"><animate attributeName="cx" values="122;298;122" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cy="240" r="11" fill="#fff" opacity=".8"><animate attributeName="cx" values="298;122;298" dur="5s" repeatCount="indefinite"/></circle>
+  <text x="390" y="150" font-size="76" font-weight="700" fill="url(#ac)" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif">GradLab</text>
+  <text x="392" y="200" font-size="28" fill="#cfdcf5" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Drag a few stops. Get the CSS.</text>
+  <text x="392" y="245" font-size="20" fill="#6f86ad" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace">Linear  •  Radial  •  Conic  •  One-click copy</text>
+</svg>
